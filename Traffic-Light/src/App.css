@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(99, 101, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.traffic-light {
+  width: 120px;
+  height: 290px;
+  background-color: #111111;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.light{
+  width: 80px;
+  height: 80px;
+  background-color: rgb(115, 129, 125);
+  border-radius: 50%;
+  transition: background-color 0.5s ease-in-out;
+  display: flex;
+} 
+.Red.active{
+  background-color: red;
+}
+.Yellow.active{
+  background-color: yellow;
+}
+.Green.active{
+  background-color: green;
+}
